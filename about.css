@@ -1,0 +1,63 @@
+html,
+body,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  .view {
+    height: 100vh;
+  }
+}
+
+.intro-image {
+  width: 100%;
+  height: auto;
+  opacity: 0.8;
+}
+
+.karen {
+  object-fit: cover;
+  height:400px;
+  width: 100%;
+  border-radius: 90%;
+}
+
+.tyler {
+  object-fit: cover;
+  height:400px;
+  width: 100%;
+  border-radius: 90%;
+}
+
+.cover {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  border-radius: 10%;
+}
+
+h6 {
+  margin-bottom: .5rem;
+}
+
+#woodType {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+h1 {
+  margin: 2rem 0 2rem 2rem;
+}
+
+footer {
+  margin-top: 3rem;
+  background-color: #f4f4f4;
+}
+
+.input-group {
+  margin: auto;
+  width: 40%;
+}

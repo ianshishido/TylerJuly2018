@@ -1,0 +1,63 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+h1 {
+  letter-spacing: 8px;
+}
+
+h5 {
+  letter-spacing: 3px;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+}
+ #missionstatement {
+   margin-top: 3em;
+ }
+#titlepage {
+  margin-top: 12em;
+  color: white;
+}
+
+.button1 {
+  padding: 10px 20px;
+  font-size: 14px;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+}
+.button1:hover {
+  color: black;
+  background-color: white;
+}
+
+.cover {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+footer {
+  background-color: #f4f4f4
+}
+
+.input-group {
+  margin: auto;
+  width: 40%;
+}

@@ -1,0 +1,45 @@
+html,
+body,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  .view {
+    height: 100vh;
+  }
+}
+
+h1 {
+  margin: 2rem 0 2rem 2rem;
+}
+
+.topleft {
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+.intro-image {
+  width: 100%;
+  height: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+#portfolioimage {
+  position: -webkit-sticky;
+  position: absolute;
+  top: 0;
+}
+.cover {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  border-radius: 10%;
+  margin-top: 3rem;
+}
